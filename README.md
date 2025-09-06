@@ -1,2 +1,3 @@
 # DNA-Sequence-Database-with-Hash-Tables-in-C-
 Hash table–based DNA database with multiple collision strategies, polynomial rolling hash, and dynamic rehashing for O(1) performance.
+This project implements a DNA sequence database in C++ using hash tables with linear probing, quadratic probing, and double hashing collision resolution. It features a polynomial rolling hash function and dynamic rehashing triggered by load and tombstone ratios to maintain O(1) average performance. Extensive unit tests validate insertion, deletion, collisions, and rehashing, with memory safety confirmed through Valgrind; performance tests showed 95% retrieval accuracy and up to 75% faster searches under heavy loads.
